@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>27</x>
+      <y>162</y>
+      <w>315</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>Wizard
+--
+-i: Int
+-temp: String
+-tex: String[]
+-latexcode: String
+--
++wizard()
++wizard(w:String, t:String, st:String, a:String, d:String)
+-subtitleActionPerformed() : void
+-dateActionPerformed () : void
+-titleActionPerformed() : void
+-authorAction Performed() : void
+-nextActionPerformed() : void
++ static void main(String args)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>162</y>
+      <w>504</w>
+      <h>423</h>
+    </coordinates>
+    <panel_attributes>Wizard2
+--
+-clicked: Int
+-checked: String
+~clip: Clipboard
+-wizard1: String
+-latexcode: String
+--
++wizard2()
++wizard2(w:String, title:String, subtitle:String, author:String, date:String)
+-subtitleActionPerformed() : void
+-titleActionPerformed() : void
+- addcodeActionPerformed() : void
+- addpointerActionPerformed() : void
+- section ActionPerformed () : void
+-addpathindescription Action Performed() : void
+-pathActionPerformed () : void
+-title MouseMoved () : void
+-endActionPerformed() : void
+-rightarrowActionPerformed() : void
+-copycodeActionPerformed () : void
+-backActionPerformed () : void
+-subsection ActionPerformed () : void
+-outputMouseMoved() : void
+-starten Action Performed() : void
+-outputMouseEntered () : void
+-outputKeyTyped() : void
+-rightarrow2ActionPerformed() : void
++ static main(String args) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>162</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>333</x>
+      <y>207</y>
+      <w>342</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;360.0;20.0</additional_attributes>
+  </element>
+</diagram>
