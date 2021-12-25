@@ -1,0 +1,147 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[obeyspaces]{url}
+\usepackage{hyperref}
+
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codeblue}{rgb}{0,0,0.6}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{language=Java,
+	backgroundcolor=\color{backcolour},
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\title{CSE - 141 - Introduction to Programming\\ \vspace{5mm}
+\large Lab 1 - Compiling through Command-line Interface}
+\author{Instructor: Dr. Umair Azfar Khan}
+\date{Fall, 2020}
+\begin{document}
+\maketitle
+
+
+\section{Objective}
+In this lab we will familiarize ourselves with the command line interface and writing a basic program in Java. We will then use the command line interface to execute our program.
+\section{Instructions}
+
+\subsection{Creating a folder}
+
+\begin{enumerate}
+\item On a windows machine, you can keep the Windows key pressed and then tap the 'E' key. This will open the Windows Explorer for you.
+\item Now select the C: Drive and right click on the empty white area to open the popup menu.
+\item Select New $\Rightarrow$ Folder and it will create a new folder for you. Give it the name Java.
+\item Double-click to open the folder and then create another folder by the name of Lab01. Double-click Lab01 to access it. This is where we will be creating our files.
+\end{enumerate}
+\subsection{Creating your first Java file}
+
+\begin{enumerate}
+\item Right-click again in the white area, select New  $\Rightarrow$ Text Document. Delete the entire name and then name it as "HelloWorld.java" (without the quotes)
+\item Now paste the following code in the file:
+\begin{lstlisting}[language=Java]%, caption=HelloWorld example]
+public class HelloWorld 
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Hello World");
+	}
+}
+\end{lstlisting}
+\item Save the file by pressing Ctrl + S
+\end{enumerate}
+\section{Running code through command prompt}
+
+\begin{enumerate}
+\item In the search field at the bottom left, right next to the start button, type in 'cmd' (without quotes) and press Enter.
+\item This will open the command prompt.
+\item Now type in \path{cd\java} so that you change the directory to the one you just created.
+\item If you type in dir, it will show you the names of the file in the directory currently. As a result, you will be able to see HelloWorld.java
+\item In order to compile the file, type in javac HelloWorld.java and press Enter.
+\item It will take a second to compile the file and the cursor will again become visible.
+\item To run your compiled code, you will just type java HelloWorld and it will show you the "Hello World" message.
+\end{enumerate}
+\section{Possible errors}
+It is quite likely that the compilation commands will not work. This happens when java is not properly installed. To fix this error, you need to tell the computer where the JDK has been installed. Normally it is present in \path{C:\Program Files\Java\JDK\bin}. You can copy the path and then in command prompt:
+\vspace{5mm} 
+\path{SET PATH=C:\Program Files\Java\jdk\bin}
+\vspace{5mm} 
+Keep in mind that jdk may be followed by some numbers so follow the exact path as given on your machine.
+\vspace{2mm}\\
+Once the path is set, all the commands should work.
+\section{Class Exercise}
+Write a 200 word story containing 3 paragraphs, where each paragraph starts with a tab. You will need to create a separate class for it named, MyStory.
+\end{document}
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[obeyspaces]{url}
+\usepackage{hyperref}
+
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codeblue}{rgb}{0,0,0.6}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{language=Java,
+	backgroundcolor=\color{backcolour},
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\title{revwetgwtg4g\\ \vspace{5mm}
+\large 4tgt4gt4g}
+\author{4tgt4gt4gt4}
+\date{4tgt4g4}
+\begin{document}
+\maketitle
+
+
+\section{twt4bwtbt4}
+rtvwtvwttvwtt
+\end{document}
